@@ -16,7 +16,7 @@ if not os.path.exists(MODEL_PATH):
     )
     print("✅ Modelo descargado")
 
-PUERTO = '/dev/ttyACM1'
+PUERTO = '/dev/ttyACM0'
 BAUD_RATE = 9600
 
 try:
